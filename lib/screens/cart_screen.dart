@@ -24,7 +24,7 @@ class CartScreen extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  Text('Total', style: TextStyle(fontSize: 20)),
+                  Text('Total,', style: TextStyle(fontSize: 20)),
                   // SizedBox(width: 10),
                   Spacer(), // 開いてるスペースを埋めてくれる
                   Chip(
